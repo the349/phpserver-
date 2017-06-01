@@ -1,3 +1,5 @@
+<html>
 <?php
-echo nn
->
+echo nn;
+?>
+</html>
