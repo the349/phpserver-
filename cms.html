@@ -1,2 +1,8 @@
-<input type="file">
-<button>upload</button>
+<script>
+function loadimg() {
+  document.write("<img src="+localStorage.uy+">");
+}
+</script>
+
+<input type="file" id="thefile">
+<button onmousedown="var u = document.getElementById('thefile').value;console.log(u);localStorage.setItem('uy', u);loadimg();">upload</button>
