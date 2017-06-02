@@ -1,8 +1,16 @@
 <script>
-function loadimg() {
+function loadweb() {
   document.write("<iframe src="+localStorage.uy+"></iframe>");
 }
 </script>
 
 <input type="url" id="thefile">
-<button onmousedown="var u = document.getElementById('thefile').value;console.log(u);localStorage.setItem('uy', u);loadimg();">upload</button>
+<button onmousedown="var u = document.getElementById('thefile').value;console.log(u);localStorage.setItem('uy', u);loadweb();">upload</button>
+<script>
+function loadimg() {
+  document.write("<img src="+localStorage.uuy+">");
+}
+</script>
+
+<input type="url" id="thefile2">
+<button onmousedown="var uu = document.getElementById('thefile4').value;console.log(uu);localStorage.setItem('uuy', uu);loadimg();">upload</button>
